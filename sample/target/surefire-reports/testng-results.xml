@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="9494" started-at="2017-02-06T09:21:47Z" finished-at="2017-02-06T09:21:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9494" started-at="2017-02-06T09:21:47Z" finished-at="2017-02-06T09:21:56Z">
+      <class name="toolsqa.com.tests.HomePageTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2017-02-06T16:21:47Z" finished-at="2017-02-06T16:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4224" started-at="2017-02-06T16:21:47Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-02-06T16:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="initTest" is-config="true" duration-ms="5241" started-at="2017-02-06T16:21:51Z" finished-at="2017-02-06T16:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void toolsqa.com.tests.HomePageTest.testFlow1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="beforeTestCase()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="beforeTestCase" is-config="true" duration-ms="0" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCase -->
+        <test-method status="PASS" signature="testFlow1()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="testFlow1" duration-ms="1" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlow1 -->
+        <test-method status="PASS" signature="afterTestCase()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="afterTestCase" is-config="true" duration-ms="0" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void toolsqa.com.tests.HomePageTest.testFlow1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="cleanTest()[pri:0, instance:toolsqa.com.tests.HomePageTest@4973813a]" name="cleanTest" is-config="true" duration-ms="0" started-at="2017-02-06T16:21:56Z" finished-at="2017-02-06T16:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+      </class> <!-- toolsqa.com.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
